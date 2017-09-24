@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">File Permissions Demo</string>
+    <string name="menu_reset">Reset</string>
+    <string name="switch_common_storage">Common Storage</string>
+    <string name="switch_application_storage">App\'s Storage</string>
+    <string name="btn_load">Load</string>
+    <string name="btn_migrate">Migrate</string>
+    <string name="migration_java_move">Java Move</string>
+    <string name="migration_native_move">Native Move</string>
+    <string name="migration_copy">Copy</string>
+
+    <string name="permission_explaination_title">Permission Request</string>
+    <string name="permission_explaination_message_storage">Storage permission is needed to perform this action</string>
+    <string name="permission_never_ask_again_message_storage">Storage permission is needed to perform this action. Please go to Settings > Permissions and turn Storage on</string>
+    <string name="btn_allow">Allow</string>
+    <string name="btn_deny">Deny</string>
+    <string name="btn_settings">Settings</string>
+</resources>
