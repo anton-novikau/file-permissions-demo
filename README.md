@@ -13,7 +13,7 @@ The issue is reproducible on Android Emulator with Android 6.0 and on Nexus 9 wi
  1. Press "**Load**" button to download an image  to ```/sdcard/File Permissions``` directory.
  2. Select one of the migration modes: 
 	 - **Java** to move file from one directory to another with ```File.renameTo(File)```
-	 - **Native** to move file with C++ method rename(char*, char*) form stdio.h
+	 - **Native** to move file with C++ method ```rename(char*, char*)``` form ```stdio.h```
 	 - **Copy** to copy file content from one directory to another and remove the original file
  3. Press "**Migrate**" button with one of the modes selected to move the downloaded image into ```/sdcard/Android/data/<package>/files/File Permissions``` directory
  4. Go to app's settings -> Permissions and revoke ```STORAGE``` permission
